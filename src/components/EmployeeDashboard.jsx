@@ -9,7 +9,7 @@ function EmployeeDashboard() {
 
   useEffect(() => {
     axios
-      .get("https://employee-curd-2.onrender.com/:8080/getAll")
+      .get("https://employee-curd-2.onrender.com/getAll")
       .then((response) => setEmployees(response.data))
       .catch(() => console.log("Something went wrong"));
   }, []);
