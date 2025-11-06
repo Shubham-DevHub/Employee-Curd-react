@@ -7,7 +7,7 @@ function Welcome() {
       <WelcomeMenu />
 
       <img
-        src="emp.jpg"
+        src="empx.jpg"
         alt="Restaurant Banner"
         className="w-full mt-2 h-auto object-cover rounded-b-lg shadow-md"
       />
