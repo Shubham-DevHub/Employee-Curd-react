@@ -18,7 +18,7 @@ function EmployeeDashboard() {
     //https://employee-curd-2.onrender.com/delete?id=1
 
     axios
-      .delete(`https://employee-curd-2.onrender.com//delete?id=${id}`)
+      .delete(`https://employee-curd-2.onrender.com/delete?id=${id}`)
       .then((response) => {
         if (response.data === true) {
           alert("deleted");
